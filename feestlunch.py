@@ -14,5 +14,5 @@ txt_3 = input("hoeveel kortingsbonnen heeft uw? ")
 aantal_3 = int(txt_3)
 print("uw heeft dit aantal kortingsbonnen", aantal_3)
 
-bedrag = (17 * 0.39 + 2 * 2.78 - 1.50)
+bedrag = (aantal_1 * croissant + aantal_2 * stokbroden + aantal_3 - kortingsbon)
 print("de feestlunch kost je bij de bakker", bedrag, "voor de 17 croissantjes en de 2 stokbroden.")

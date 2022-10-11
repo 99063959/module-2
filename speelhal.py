@@ -10,5 +10,5 @@ txt_2 = input("hoeveel minuten willen jullie in de vip? ")
 aantal_2 = int(txt_2)
 print("je wilt dit aantal minuten in de vip", aantal_2)
 
-bedrag = (4 * 7.45 + 9 * 0.37)
-print("het bedrag te betalen is", bedrag)
+bedrag = (aantal_mensen * toegangsprijs + aantal_2 * vip)
+print("dit geweldige dagje met 4 mensen in de speelhal met 45 minuten VIP kostte me", bedrag, "euro")
