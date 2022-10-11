@@ -15,4 +15,4 @@ aantal_3 = int(txt_3)
 print("uw heeft dit aantal kortingsbonnen", aantal_3)
 
 bedrag = (17 * 0.39 + 2 * 2.78 - 1.50)
-print("uw bedrag te betalen is ", bedrag)
+print("de feestlunch kost je bij de bakker", bedrag, "voor de 17 croissantjes en de 2 stokbroden.")

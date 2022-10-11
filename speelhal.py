@@ -11,4 +11,4 @@ aantal_2 = int(txt_2)
 print("je wilt dit aantal minuten in de vip", aantal_2)
 
 bedrag = (4 * 7.45 + 9 * 0.37)
-print("het bedrag te betalen is ", bedrag)
+print("het bedrag te betalen is", bedrag)
