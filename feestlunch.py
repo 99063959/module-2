@@ -2,8 +2,8 @@ croissant = 0.39
 stokbroden = 2.78
 kortingsbon = 0.50
 
-txt_1 = input("hoeveel croissants wilt uw? ")
-aantal_1 = int(txt_1)
+aantal_1 = int (input("hoeveel croissants wilt uw? "))
+#aantal_1 = int(txt_1)
 print("uw heeft dit aantal croissants besteld", aantal_1)
 
 txt_2 = input("hoeveel stokbroden wilt uw? ")
