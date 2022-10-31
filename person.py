@@ -1,4 +1,4 @@
-naam = str(input("voer je naam in "))
+naam = input("voer je naam in ")
 adres = str(input("voer je adres in "))
 postcode = str(input("voer je postcode in "))
 woonplaats = str(input("voer je woonplaats in "))
