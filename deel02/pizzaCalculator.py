@@ -2,7 +2,7 @@ prijsSmall = 8
 prijsMedium = 9
 prijsLarge = 10
 
-
+while True:
     afmeting = input("wat voor maat pizza wil je small, medium of large? ")
 
     if afmeting == "small":
