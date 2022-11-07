@@ -1,11 +1,20 @@
 prijsSmall = 8
 prijsMedium = 9
 prijsLarge = 10
+notstop = True
 
-while True:
+while notstop:
     afmeting = input("wat voor maat pizza wil je small, medium of large? ")
+   
+    if afmeting == "stop":
+        notstop = False
+        bedragSmall = (aantalSmall * prijsSmall)
+        bedragMedium = (aantalMedium * prijsMedium)
+        bedragLarge = (aantalLarge * prijsLarge)
+        bedrag = (bedragSmall + bedragMedium + bedragLarge)
+        print("het bedrag wat je moet betalen voor de pizzas is" ,bedrag)
 
-    if afmeting == "small":
+    elif afmeting == "small":
         aantalSmall = int(input("hoeveel small pizzas wil je? "))
         print("je hebt",aantalSmall,"small pizzas besteld")
 
