@@ -27,4 +27,7 @@ while notstop:
         bedragTotaal += (aantalSmall * prijsSmall)
         bedragTotaal += (aantalMedium * prijsMedium)
         bedragTotaal += (aantalLarge * prijsLarge)
+        print("het aantal smalle pizzas besteld is",aantalSmall,"waarvan de prijs is",aantalSmall * prijsSmall,"euro")
+        print("het aantal medium pizzas besteld is",aantalMedium,"waarvan de prijs is",aantalMedium * prijsMedium,"euro")
+        print("het aantal large pizzas besteld is",aantalLarge,"waarvan de prijs is",aantalLarge * prijsLarge,"euro")
         print("het totaal bedrag is",bedragTotaal,"euro")
